@@ -241,6 +241,10 @@
     text-decoration: none;
     color: #3d3d3d;
 }
+
+.left-1 a:hover{
+    color: black;
+}
 .right-1{
     float: right;
     width: 38%;
@@ -249,6 +253,9 @@
 .right-1 a{
     text-decoration: none;
     color: #3d3d3d;
+}
+.right-1 a:hover{
+    color: black;
 }
 .extra1{
 
