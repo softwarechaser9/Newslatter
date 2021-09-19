@@ -1,0 +1,265 @@
+/***************
+ global section here
+  ***************/	
+*{
+	margin: 0;
+	padding: 0;
+}
+/***************
+ header tag
+  ***************/
+ .container{
+ 	width: 1140px;
+ 	margin: auto;
+ }
+ a{
+ 	text-decoration: none;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+ header{
+ 	width: 100%;
+ 	padding: 50px 0px;
+    display: flow-root;
+ }
+
+ .nav-bar{
+ 	width: 100%;
+ 	float: left;
+ }
+
+ .logo{
+ 	
+ 	width: 25%;
+ 	float: left;
+ }
+
+ .menu{
+ 	width: 75%;
+ 	float: right;
+ 	text-align: right;
+ 	
+ }
+ .menu ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin-left: 55px;
+
+ }
+ .menu ul li a{
+ 	font-family: 'Playfair Display', serif;
+ 	color: #cacaca;
+ 	test-transform: uppercase;
+ 	font-weight: 400;
+ }
+
+ .menu ul li a:hover{
+ 	color: black;
+ }
+
+ /***************
+ main post
+  ***************/
+ .main-post{
+ 	width: 100%;
+    display: flow-root;
+ }
+.details{
+	padding: 70px;
+    margin-left: 60px;
+} 
+.details h4{
+	color: #cacaca;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 13px;
+}
+.details h1{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-weight: 400px;
+    padding-bottom: 15px;
+	
+}
+.details p{
+	font-family: 'Playfair Display', serif;
+    padding-bottom: 38px;
+    color: #626262;
+}
+.details span{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500px;
+    color: #b4ad9e;
+
+    }
+/*******post section8888888***************/
+
+
+.yourimage{
+    width: 100%;
+    display: flow-root;
+}
+.gallery{
+    width: 100%;
+    float: left;
+}
+.left{
+    width: 50%;
+    float: left;
+    margin-left: 60px;
+}
+.right{
+    width: 42%;
+    float: left;
+}
+.image{
+    padding-left: 70px
+}
+.des{
+    padding: 70px;
+} 
+.des h4{
+    color: #cacaca;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 13px;
+}
+.des h1{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 300px;
+    padding-bottom: 15px;
+    
+}
+
+.des p{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 38px;
+    font-weight: 300; 
+    color: #c0c0c0;
+}
+.des1{
+    padding-top: 68px;
+} 
+.des1 h4{
+    color: #cacaca;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 13px;
+}
+.des1 h1{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 300px;
+    padding-bottom: 15px;
+    
+}
+.des1 p{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 38px;
+    color: #c0c0c0;
+    padding-right: 139px;
+}
+.extra{
+
+}
+
+.newslatter{
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flow-root;
+    padding: 60px 38px;
+
+}
+.halkaleft{
+    margin-left: -19px;
+    color: gainsboro;
+    background: transparent;
+}
+.later{
+    text-align: center;
+
+}
+.later h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+.later input{
+    padding: 10px 0px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+    
+.later input :: placeholder{
+    font-family: 'Playfair Display', serif;
+    background-color: #f0f0f0;
+
+}
+
+.later input:focus {
+    outline: 0px;
+}
+
+.loader{
+    display: flow-root;
+    text-align: center;
+    margin: 120px 0px;
+}
+.load button{
+    padding: 18px;
+    background: transparent;
+    border: 1px solid #3d3d3d;
+    color: #3d3d3d;
+     font-family: 'Playfair Display', serif;
+}
+.load button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #f0f0f0;
+    padding: 40px 0px;
+
+}
+.left-1{
+    width: 25%;
+    float: left;
+    margin-left: 137px;
+    display: inline-flex;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    
+}
+.left-1 a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.right-1{
+    float: right;
+    width: 38%;
+
+}
+.right-1 a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.extra1{
+
+}
+.space{
+    margin-left: 18px;
+    text-decoration: none;
+}
+.right-1 ul li{
+    list-style-type: none;
+}
+.semi{
+
+}
